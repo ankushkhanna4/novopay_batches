@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="novopay.in.batchautomation.EnableRemittanceQueuing"/>
+      <class name="novopay.in.batchautomation.CMSWalletSettlement"/>
+      <class name="novopay.in.batchautomation.WalletTransfer"/>
+      <class name="novopay.in.batchautomation.AxisIMPSStatusEnquiry"/>
+      <class name="novopay.in.batchautomation.IdfcTopup"/>
+      <class name="novopay.in.batchautomation.MerchantWalletSettlementEOD"/>
+      <class name="novopay.in.batchautomation.QueuedTransactionsProcessing"/>
+      <class name="novopay.in.batchautomation.AxisRemittanceIMPSTccRet"/>
+      <class name="novopay.in.batchautomation.AIGInsuranceRecon"/>
+      <class name="novopay.in.batchautomation.RblIMPSRefund"/>
+      <class name="novopay.in.batchautomation.AxisAgentWalletTopup"/>
+      <class name="novopay.in.batchautomation.RblAgentWalletTopup"/>
+      <class name="novopay.in.batchautomation.RetailerCashoutSettlement"/>
+      <class name="novopay.in.batchautomation.AxisIMPSRefund"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

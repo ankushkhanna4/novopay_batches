@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Connecting server...]]>
+    </line>
+    <line>
+      <![CDATA[Connection established...]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40455" started-at="2018-10-16T09:22:31Z" finished-at="2018-10-16T09:23:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40455" started-at="2018-10-16T09:22:31Z" finished-at="2018-10-16T09:23:11Z">
+      <class name="novopay.in.batchautomation.IdfcTopup">
+        <test-method status="PASS" signature="readProperties()[pri:0, instance:novopay.in.batchautomation.IdfcTopup@146ba0ac]" name="readProperties" is-config="true" duration-ms="48" started-at="2018-10-16T14:52:31Z" finished-at="2018-10-16T14:52:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readProperties -->
+        <test-method status="PASS" signature="idfcAgentWalletTopupTest(java.util.HashMap)[pri:0, instance:novopay.in.batchautomation.IdfcTopup@146ba0ac]" name="idfcAgentWalletTopupTest" duration-ms="39613" started-at="2018-10-16T14:52:31Z" data-provider="getTestData" finished-at="2018-10-16T14:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Retailer=9148524212, Description=Test1, Execution=Yes, FirstWalletLoadCheck=No, Amount=2000, TCID=TC_01}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Connecting server...]]>
+            </line>
+            <line>
+              <![CDATA[Connection established...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- idfcAgentWalletTopupTest -->
+      </class> <!-- novopay.in.batchautomation.IdfcTopup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
